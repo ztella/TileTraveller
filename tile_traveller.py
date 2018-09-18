@@ -55,3 +55,5 @@ while location != 31:
             location += 1
         else:
             print('Not valid direction!')
+print('Victory!')
+
