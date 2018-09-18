@@ -7,7 +7,7 @@ while location != 31:
         if dire == 'n' or dire == 'N':
             location += 1
         else:
-            print('Not valid direction!')
+            print('Not a valid direction!')
     elif location == 12:
         print('You can travel: (N)orth or (E)ast or (S)outh.')
         dire = input('Direction: ')
@@ -18,7 +18,7 @@ while location != 31:
         elif dire == 's' or dire == 'S':
             location -= 1
         else: 
-            print('Not valid direction!')
+            print('Not a valid direction!')
     elif location == 13:
         print('You can travel: (E)ast or (S)outh.')
         dire = input('Direction: ')
@@ -27,7 +27,7 @@ while location != 31:
         elif dire == 's' or dire == 'S':
             location -= 1
         else:
-            print('Not valid direction!')
+            print('Not a valid direction!')
     elif location == 23:
         print('You can travel: (E)ast or (W)est.')
         dire = input('Direction: ')
@@ -36,7 +36,7 @@ while location != 31:
         elif dire == 'w' or dire == 'W':
             location -= 10
         else:
-            print('Not valid direction!')
+            print('Not a valid direction!')
     elif location == 22 or location == 33:
         print('You can travel: (S)outh or (W)est.')
         dire = input('Direction: ')
@@ -45,7 +45,7 @@ while location != 31:
         elif dire == 'w' or dire == 'W':
             location -= 10
         else:
-            print('Not valid direction!')
+            print('Not a valid direction!')
     else: # location = 32
         print('You can travel: (N)orth or (S)outh.')
         dire = input('Direction: ')
@@ -54,6 +54,6 @@ while location != 31:
         elif dire == 'n' or dire == 'N':
             location += 1
         else:
-            print('Not valid direction!')
+            print('Not a valid direction!')
 print('Victory!')
 
